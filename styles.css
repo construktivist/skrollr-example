@@ -3,7 +3,19 @@ body {
 }
 
 div {
-    height: 30%;
-    margin: auto auto;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.section-one {
+    background-image: url(./images/bank1.jpg);
+}
+
+.section-two {
+    background-image: url(./images/bank2.jpg);
+}
+
+.section-three {
+    background-image: url(./images/bank3.jpg);
 }
