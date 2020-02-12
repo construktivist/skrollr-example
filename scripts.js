@@ -1,3 +1,6 @@
 window.onload = function() {
-    var s = skrollr.init();
+    var s = skrollr.init({
+        smoothScrolling: false;
+        mobileDeceleration: 0.004
+    });
 }
